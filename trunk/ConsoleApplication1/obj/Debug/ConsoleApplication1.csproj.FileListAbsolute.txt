@@ -1,0 +1,7 @@
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\bin\Debug\OpenStreetMap.NET.dll
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\bin\Debug\OpenStreetMap.NET.pdb
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\vs\OpenStreetMap.NET\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
