@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.5" generator="OpenStreetMap server">
+  <way id="7371280" visible="true" timestamp="2007-09-19T19:18:26+01:00" user="AND">
+    <nd ref="46382854"/>
+    <nd ref="46382911"/>
+    <nd ref="46383015"/>
+    <tag k="name" v="Wijde Lombardsteeg"/>
+    <tag k="AND_nosr_r" v="15217222"/>
+    <tag k="highway" v="unclassified"/>
+  </way>
+  <way id="7371281" visible="true" timestamp="2007-09-19T19:18:27+01:00" user="AND">
+    <nd ref="46381047"/>
+    <nd ref="46383015"/>
+    <tag k="name" v="Rokin"/>
+    <tag k="AND_nosr_r" v="15217221"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="oneway" v="1"/>
+  </way>
+  <way id="7371345" visible="true" timestamp="2007-09-19T19:18:53+01:00" user="AND">
+    <nd ref="46383015"/>
+    <nd ref="46385135"/>
+    <tag k="name" v="Rokin"/>
+    <tag k="AND_nosr_r" v="15217171"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="oneway" v="1"/>
+  </way>
+</osm>

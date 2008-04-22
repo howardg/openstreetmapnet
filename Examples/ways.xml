@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.5" generator="OpenStreetMap server">
+  <way id="7371184" visible="true" timestamp="2007-10-28T11:06:21+00:00" user="Ante">
+    <nd ref="46406546"/>
+    <nd ref="46407230"/>
+    <nd ref="46407625"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="AND_nosr_r" v="15217300"/>
+    <tag k="name" v="Warmoesstraat"/>
+    <tag k="oneway" v="1"/>
+  </way>
+  <way id="7371185" visible="true" timestamp="2007-09-19T19:17:41+01:00" user="AND">
+    <nd ref="46407479"/>
+    <nd ref="46407671"/>
+    <tag k="name" v="Lijnbaanssteeg"/>
+    <tag k="AND_nosr_r" v="15217299"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="oneway" v="1"/>
+  </way>
+  <way id="7371186" visible="true" timestamp="2007-09-19T19:17:41+01:00" user="AND">
+    <nd ref="46404063"/>
+    <nd ref="46403917"/>
+    <nd ref="46404267"/>
+    <tag k="name" v="Nieuwe Nieuwstraat"/>
+    <tag k="AND_nosr_r" v="15217298"/>
+    <tag k="highway" v="pedestrian"/>
+  </way>
+  <way id="7371187" visible="true" timestamp="2007-09-19T19:17:41+01:00" user="AND">
+    <nd ref="46403879"/>
+    <nd ref="46404672"/>
+    <tag k="name" v="Vredenburgersteeg"/>
+    <tag k="AND_nosr_r" v="15217297"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="oneway" v="1"/>
+    <tag k="layer" v="1"/>
+  </way>
+</osm>

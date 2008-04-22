@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDeserializer", "TestDes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSerializer", "TestSerializer\TestSerializer.csproj", "{8FCB86A7-83E5-474D-AB8B-E9C4298892EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDeserializeForm", "TestDeserializeForm\TestDeserializeForm.csproj", "{76F356D8-42D3-437E-954D-7821C1E3DD59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8FCB86A7-83E5-474D-AB8B-E9C4298892EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FCB86A7-83E5-474D-AB8B-E9C4298892EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FCB86A7-83E5-474D-AB8B-E9C4298892EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F356D8-42D3-437E-954D-7821C1E3DD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F356D8-42D3-437E-954D-7821C1E3DD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F356D8-42D3-437E-954D-7821C1E3DD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F356D8-42D3-437E-954D-7821C1E3DD59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A3056C84-0734-4A94-B632-84F203DADAF0} = {2B1E913E-11BF-435A-BA5F-A94F0DFD6427}
 		{8FCB86A7-83E5-474D-AB8B-E9C4298892EA} = {2B1E913E-11BF-435A-BA5F-A94F0DFD6427}
+		{76F356D8-42D3-437E-954D-7821C1E3DD59} = {2B1E913E-11BF-435A-BA5F-A94F0DFD6427}
 	EndGlobalSection
 EndGlobal
