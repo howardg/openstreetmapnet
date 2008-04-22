@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenStreetMap.NET.API" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.BoundingBox" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoundingBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.Node" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAACAAAAgAAAAAAAAAACAAAAgA=</HashCode>
+      <FileName>Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.OSMXML" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.OSMRequest" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAgAAABAAAAAAAgAAAAAAAgEAEAAAIAAAAEAAAA=</HashCode>
+      <FileName>OSMRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.OSMResponse" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OSMResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.OSMUser" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>OSMUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.Relation" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAACAAAAwA=</HashCode>
+      <FileName>Relation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.Tag" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAA=</HashCode>
+      <FileName>Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.TimeStamp" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAABAAAAAA=</HashCode>
+      <FileName>TimeStamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.Way" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAABACAAAIwA=</HashCode>
+      <FileName>Way.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenStreetMap.NET.NodeRef" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Way.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="OpenStreetMap.NET.RequestTypes" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAACAAAAAAAAAAAAACAAFAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OSM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OpenStreetMap.NET.ObjectTypes" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>OSM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

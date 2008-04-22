@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.5" generator="OpenStreetMap server">
+  <way id="7371660" visible="true" timestamp="2007-09-19T19:20:28+01:00" user="AND">
+    <nd ref="46382598"/>
+    <nd ref="46385109"/>
+    <nd ref="46386366"/>
+    <nd ref="46388706"/>
+    <tag k="name" v="Kalverstraat"/>
+    <tag k="AND_nosr_r" v="15216937"/>
+    <tag k="highway" v="pedestrian"/>
+  </way>
+  <way id="7371660" visible="true" timestamp="2007-10-09T18:41:00+01:00" user="Ante">
+    <nd ref="46382598"/>
+    <nd ref="46385109"/>
+    <nd ref="46386366"/>
+    <nd ref="61819295"/>
+    <nd ref="46388706"/>
+    <tag k="name" v="Kalverstraat"/>
+    <tag k="AND_nosr_r" v="15216937"/>
+    <tag k="highway" v="pedestrian"/>
+  </way>
+  <way id="7371660" visible="true" timestamp="2007-10-09T19:08:07+01:00" user="Ante">
+    <nd ref="46382598"/>
+    <nd ref="46385109"/>
+    <nd ref="46386366"/>
+    <nd ref="61819295"/>
+    <nd ref="61825101"/>
+    <nd ref="46388706"/>
+    <tag k="name" v="Kalverstraat"/>
+    <tag k="AND_nosr_r" v="15216937"/>
+    <tag k="highway" v="pedestrian"/>
+  </way>
+</osm>

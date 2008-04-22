@@ -5,9 +5,9 @@ using System.Text;
 
 namespace OpenStreetMap.NET
 {
-  public class BoundingBox
+  public class Point
   {
-    public Point LeftBottom { get; set; }
-    public Point RightTop { get; set; }
+    public float lon { get; set; }
+    public float lat { get; set; }
   }
 }
