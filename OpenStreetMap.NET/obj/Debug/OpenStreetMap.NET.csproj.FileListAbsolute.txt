@@ -1,0 +1,5 @@
+C:\vs\OpenStreetMap.NET\OpenStreetMap.NET\bin\Debug\OpenStreetMap.NET.dll
+C:\vs\OpenStreetMap.NET\OpenStreetMap.NET\bin\Debug\OpenStreetMap.NET.pdb
+C:\vs\OpenStreetMap.NET\OpenStreetMap.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\vs\OpenStreetMap.NET\OpenStreetMap.NET\obj\Debug\OpenStreetMap.NET.dll
+C:\vs\OpenStreetMap.NET\OpenStreetMap.NET\obj\Debug\OpenStreetMap.NET.pdb

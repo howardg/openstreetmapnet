@@ -1,0 +1,7 @@
+C:\vs\OpenStreetMap.NET\TestDeserializer\bin\Debug\TestDeserializer.exe
+C:\vs\OpenStreetMap.NET\TestDeserializer\bin\Debug\TestDeserializer.pdb
+C:\vs\OpenStreetMap.NET\TestDeserializer\bin\Debug\OpenStreetMap.NET.dll
+C:\vs\OpenStreetMap.NET\TestDeserializer\bin\Debug\OpenStreetMap.NET.pdb
+C:\vs\OpenStreetMap.NET\TestDeserializer\obj\Debug\ResolveAssemblyReference.cache
+C:\vs\OpenStreetMap.NET\TestDeserializer\obj\Debug\TestDeserializer.exe
+C:\vs\OpenStreetMap.NET\TestDeserializer\obj\Debug\TestDeserializer.pdb

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT osm (bound?,(node|relation|way)*)>
+<!ATTLIST osm version   (0.5) #REQUIRED>
+<!ATTLIST osm generator CDATA #REQUIRED>
+
+<!-- The bound element is usually only inserted by JOSM and is not
+present in the API output. However, the box attribute is not the
+interesting one, it,s the origin. It describes the API that the
+(non-negative) numbers in this file were created by. It is useful for
+other program to see if what they are uploading is actually safe for
+the server and won't overwrite the wrong thing. -->
+
+<!ELEMENT bound EMPTY>
+<!ATTLIST bound origin   CDATA #REQUIRED>
+<!ATTLIST bound box      CDATA #REQUIRED>
+
+<!ELEMENT node (tag*)>
+<!ATTLIST node id        CDATA #REQUIRED>
+<!ATTLIST node lat       CDATA #REQUIRED>
+<!ATTLIST node lon       CDATA #REQUIRED>
+<!ATTLIST node visible   CDATA #IMPLIED>
+<!ATTLIST node user      CDATA #IMPLIED>
+<!ATTLIST node timestamp CDATA #IMPLIED>
+
+<!ELEMENT way (tag*,nd,tag*,nd,(tag|nd)*)>
+<!ATTLIST way id        CDATA #REQUIRED>
+<!ATTLIST way visible   CDATA #IMPLIED>
+<!ATTLIST way user      CDATA #IMPLIED>
+<!ATTLIST way timestamp CDATA #IMPLIED>
+
+<!ELEMENT nd EMPTY>
+<!ATTLIST nd ref         CDATA #REQUIRED>
+
+<!ELEMENT relation ((tag|member)+)>
+<!ATTLIST relation id        CDATA #REQUIRED>
+<!ATTLIST relation visible   CDATA #IMPLIED>
+<!ATTLIST relation user      CDATA #IMPLIED>
+<!ATTLIST relation timestamp CDATA #IMPLIED>
+
+<!ELEMENT member EMPTY>
+<!ATTLIST member type (way|node|relation) #REQUIRED>
+<!ATTLIST member ref  CDATA  #REQUIRED>
+<!ATTLIST member role CDATA  #IMPLIED>
+
+<!ELEMENT tag EMPTY>
+<!ATTLIST tag  k         CDATA #REQUIRED>
+<!ATTLIST tag  v         CDATA #REQUIRED>
+
