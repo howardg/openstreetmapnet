@@ -14,7 +14,7 @@ namespace OpenStreetMap
   /// </summary>
   [XmlRoot("way")]
   [Serializable]
-  public class Way : OSMXML
+  public class Way
   {
     /// <summary>
     /// The OpenStreetMap id, a unique integer identifier.

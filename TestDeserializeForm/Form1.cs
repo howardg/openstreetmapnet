@@ -41,8 +41,6 @@ namespace TestDeserializeForm
     {
       XmlSerializer ser = new XmlSerializer(typeof(OpenStreetMap.OSMResponse));
       OpenStreetMap.OSMResponse response = (OpenStreetMap.OSMResponse)ser.Deserialize(new StringReader(textBoxSelectedOSMXMLFile.Text));
-
-
     }
   }
 }

@@ -9,7 +9,7 @@ namespace OpenStreetMap
 {
   [XmlRoot("node")]
   [Serializable]
-  public class Node : OSMXML
+  public class Node
   {
     [XmlAttribute("id")]
     public int id;

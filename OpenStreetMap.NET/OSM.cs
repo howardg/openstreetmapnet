@@ -7,17 +7,6 @@ using System.Xml.Serialization;
 
 namespace OpenStreetMap
 {
-  [Serializable]
-  [XmlRoot("osm")]
-  public abstract partial class OSMXML
-  {
-    [XmlAttribute]
-    public string version;
-
-    [XmlAttribute]
-    public string generator;
-  }
-
 
   /// <summary>
   /// The type of request to be made
