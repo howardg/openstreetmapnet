@@ -1,0 +1,7 @@
+C:\svn\openstreetmapnet\TestSerializer\obj\Debug\ResolveAssemblyReference.cache
+C:\svn\openstreetmapnet\TestSerializer\bin\Debug\TestSerializer.exe
+C:\svn\openstreetmapnet\TestSerializer\bin\Debug\TestSerializer.pdb
+C:\svn\openstreetmapnet\TestSerializer\bin\Debug\OpenStreetMap.NET.dll
+C:\svn\openstreetmapnet\TestSerializer\bin\Debug\OpenStreetMap.NET.pdb
+C:\svn\openstreetmapnet\TestSerializer\obj\Debug\TestSerializer.exe
+C:\svn\openstreetmapnet\TestSerializer\obj\Debug\TestSerializer.pdb
