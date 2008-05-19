@@ -80,8 +80,13 @@ namespace TestDeserializeForm
       {
         // Here you need to pull the data from the XmlNode based on the
         // type of node, whether attribute values are required, and so forth.
-        inTreeNode.Text = (inXmlNode.OuterXml).Trim();
+        inTreeNode.Nodes.Add(new TreeNode(inXmlNode.Name));
       }
+    }
+
+    private void openFileDialog1_FileOk(object sender, EventArgs e)
+    {
+
     }
 
   }
