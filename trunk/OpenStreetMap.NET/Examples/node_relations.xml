@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.5" generator="OpenStreetMap server">
+  <relation id="4904" visible="true" timestamp="2008-02-24T21:27:10+00:00">
+    <member type="node" ref="21301551" role="stop"/>
+    <member type="node" ref="25975484" role="stop"/>
+    <member type="node" ref="29805011" role="stop"/>
+    <member type="node" ref="45487321" role="stop"/>
+    <member type="node" ref="45712379" role="stop"/>
+    <member type="node" ref="45791851" role="stop"/>
+    <member type="node" ref="45911933" role="stop"/>
+    <member type="node" ref="45931397" role="stop"/>
+    <member type="node" ref="46321985" role="stop"/>
+    <member type="node" ref="46419880" role="stop"/>
+    <tag k="operator" v="NS Internationaal"/>
+    <tag k="created_by" v="JOSM"/>
+    <tag k="route" v="train"/>
+    <tag k="name" v="Amsterdam CS-Berlin Hbf"/>
+    <tag k="type" v="route"/>
+  </relation>
+</osm>

@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="API.cs" />
     <Compile Include="BoundingBox.cs" />
-    <Compile Include="Changes.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="OSM.cs" />
     <Compile Include="OSMRequest.cs" />
@@ -62,6 +61,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Examples\changes.xml" />
+    <Content Include="Examples\full.xml" />
+    <Content Include="Examples\history.xml" />
+    <Content Include="Examples\License.txt" />
+    <Content Include="Examples\map.xml" />
+    <Content Include="Examples\node.xml" />
+    <Content Include="Examples\nodes.xml" />
+    <Content Include="Examples\node_relations.xml" />
+    <Content Include="Examples\node_ways.xml" />
+    <Content Include="Examples\relation.xml" />
+    <Content Include="Examples\relation_full.xml" />
+    <Content Include="Examples\trackpoints.xml" />
+    <Content Include="Examples\way.xml" />
+    <Content Include="Examples\ways.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
