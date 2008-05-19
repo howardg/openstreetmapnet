@@ -1,0 +1,13 @@
+#summary OpenStreetMap is a free, editable map of the world.
+#labels Featured
+
+= Introduction =
+OpenStreetMap is a free editable map of the whole world. It is made by people like you.
+
+OpenStreetMap allows you to view, edit and use geographical data in a collaborative way from anywhere on Earth.
+= More information =
+Visit the [http://www.openstreetmap.org/ map].
+
+Read more on the [http://wiki.openstreetmap.org/ wiki].
+
+Chances are there is a group of enthusiastic OpenStreetMappers [http://wiki.openstreetmap.org/index.php/Mapping_projects near you].
