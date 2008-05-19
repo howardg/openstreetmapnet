@@ -68,6 +68,17 @@ namespace OpenStreetMap
     {
       node_reference = ref_id;
     }
+
+    /// <summary>
+    /// Gets a OpenStreetMap.Node pointer to the referenced node.
+    /// </summary>
+    /// <returns>an OpenStreetMap.Node</returns>
+    public Node GetNode()
+    {
+      Node n = new Node();
+      n.id = node_reference;
+      // FIXME, implement lookup node in current OSMResponse object
+    }
   }
 
 }
