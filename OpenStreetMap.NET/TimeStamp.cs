@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 
-namespace OpenStreetMap.NET
+namespace OpenStreetMap
 {
   /// <summary>
   /// TimeStamp exposes two methods to get an OSM timestamp value.

@@ -8,7 +8,7 @@
     <ProjectGuid>{E63560B8-DA11-4DD4-8E52-32AB0527C100}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenStreetMap.NET</RootNamespace>
+    <RootNamespace>OpenStreetMap</RootNamespace>
     <AssemblyName>OpenStreetMap.NET</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="API.cs" />
     <Compile Include="BoundingBox.cs" />
+    <Compile Include="Changes.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="OSM.cs" />
     <Compile Include="OSMRequest.cs" />

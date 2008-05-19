@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace OpenStreetMap.NET
+namespace OpenStreetMap
 {
   /// <summary>
   /// Represents a tag. Multiple tags are allowed for both Ways and Nodes.

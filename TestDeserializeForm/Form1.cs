@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml;
+using System.Xml.Serialization;
 
 namespace TestDeserializeForm
 {
@@ -34,6 +35,14 @@ namespace TestDeserializeForm
     {
       OpenOSMXMLFileDialog.InitialDirectory = Directory.GetCurrentDirectory();
       OpenOSMXMLFileDialog.ShowDialog();
+    }
+
+    private void btnParse_Click(object sender, EventArgs e)
+    {
+      XmlSerializer ser = new XmlSerializer(typeof(OpenStreetMap.OSMResponse));
+      OpenStreetMap.OSMResponse response = (OpenStreetMap.OSMResponse)ser.Deserialize(new StringReader(textBoxSelectedOSMXMLFile.Text));
+
+
     }
   }
 }
