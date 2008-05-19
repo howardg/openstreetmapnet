@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OpenStreetMap
 {
-  public class OSMRequest : OSMXML
+  public class OSMRequest
   {
     internal RequestTypes RequestType { get; set; }
     internal BoundingBox BBox { get; set; }

@@ -9,7 +9,7 @@ namespace OpenStreetMap
 {
   [XmlRoot("relation")]
   [Serializable]
-  public class Relation : OSMXML
+  public class Relation
   {
     [XmlAttribute]
     public int id;
