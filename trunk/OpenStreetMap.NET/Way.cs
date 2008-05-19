@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace OpenStreetMap.NET
+namespace OpenStreetMap
 {
   /// <summary>
   /// An OpenStreetMap way object. A way can represent an actual road, but also an area if it is closed. 
@@ -14,7 +14,7 @@ namespace OpenStreetMap.NET
   /// </summary>
   [XmlRoot("way")]
   [Serializable]
-  public class Way
+  public class Way : OSMXML
   {
     /// <summary>
     /// The OpenStreetMap id, a unique integer identifier.

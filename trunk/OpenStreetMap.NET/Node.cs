@@ -5,11 +5,11 @@ using System.Text;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace OpenStreetMap.NET
+namespace OpenStreetMap
 {
   [XmlRoot("node")]
   [Serializable]
-  public class Node
+  public class Node : OSMXML
   {
     [XmlAttribute("id")]
     public int id;

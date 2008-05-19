@@ -5,8 +5,9 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace OpenStreetMap.NET
+namespace OpenStreetMap
 {
+  [Serializable]
   [XmlRoot("osm")]
   public abstract partial class OSMXML
   {
@@ -54,9 +55,24 @@ namespace OpenStreetMap.NET
 
   public enum ObjectTypes
   {
+    /// <summary>
+    /// The OSM Node represents a point on the globe. It is one of the three basic object types in the OpenStreetMap data model.
+    /// </summary>
     Node,
+    /// <summary>
+    /// A way connects two or more nodes to form a line or, if node n = node 0, a polygon. It is one of the three basic object types in the OpenStreetMap data model.
+    /// </summary>
     Way,
+    /// <summary>
+    /// FIXME write a description for an OSM relation.
+    /// </summary>
     Relation
+  }
+
+  public enum ResponseTypes
+  {
+
+
   }
 
 
