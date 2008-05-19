@@ -78,6 +78,7 @@ namespace OpenStreetMap
       Node n = new Node();
       n.id = node_reference;
       // FIXME, implement lookup node in current OSMResponse object
+      return n;
     }
   }
 

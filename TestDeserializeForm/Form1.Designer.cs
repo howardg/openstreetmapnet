@@ -36,8 +36,8 @@
       this.tabControl1 = new System.Windows.Forms.TabControl();
       this.tabPage1 = new System.Windows.Forms.TabPage();
       this.tabPage2 = new System.Windows.Forms.TabPage();
-      this.listBoxSelectedObjectDetail = new System.Windows.Forms.ListBox();
       this.treeParsedXML = new System.Windows.Forms.TreeView();
+      this.listBoxSelectedObjectDetail = new System.Windows.Forms.ListBox();
       this.tabControl1.SuspendLayout();
       this.tabPage1.SuspendLayout();
       this.tabPage2.SuspendLayout();
@@ -47,7 +47,7 @@
       // 
       this.OpenOSMXMLFileDialog.FileName = "OpenOSMXMLFileName";
       this.OpenOSMXMLFileDialog.Filter = "XML Files|*.xml|OSM XML Files|*.osm|All Files|*.*";
-      this.OpenOSMXMLFileDialog.InitialDirectory = "C:\\";
+      this.OpenOSMXMLFileDialog.InitialDirectory = "..\\..\\..\\OpenStreetMap.NET\\Examples\\";
       this.OpenOSMXMLFileDialog.Title = "Select an OSM XML file to process";
       this.OpenOSMXMLFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
       // 
@@ -65,9 +65,9 @@
       // 
       this.textBoxSelectedOSMXMLFile.Location = new System.Drawing.Point(155, 15);
       this.textBoxSelectedOSMXMLFile.Name = "textBoxSelectedOSMXMLFile";
-      this.textBoxSelectedOSMXMLFile.ReadOnly = true;
       this.textBoxSelectedOSMXMLFile.Size = new System.Drawing.Size(462, 20);
       this.textBoxSelectedOSMXMLFile.TabIndex = 1;
+      this.textBoxSelectedOSMXMLFile.TextChanged += new System.EventHandler(this.openFileDialog1_FileOk);
       // 
       // XmlPreviewBrowserControl
       // 
@@ -123,6 +123,13 @@
       this.tabPage2.Text = "Parsed OSM Data";
       this.tabPage2.UseVisualStyleBackColor = true;
       // 
+      // treeParsedXML
+      // 
+      this.treeParsedXML.Location = new System.Drawing.Point(4, 7);
+      this.treeParsedXML.Name = "treeParsedXML";
+      this.treeParsedXML.Size = new System.Drawing.Size(375, 416);
+      this.treeParsedXML.TabIndex = 1;
+      // 
       // listBoxSelectedObjectDetail
       // 
       this.listBoxSelectedObjectDetail.FormattingEnabled = true;
@@ -130,13 +137,6 @@
       this.listBoxSelectedObjectDetail.Name = "listBoxSelectedObjectDetail";
       this.listBoxSelectedObjectDetail.Size = new System.Drawing.Size(289, 420);
       this.listBoxSelectedObjectDetail.TabIndex = 0;
-      // 
-      // treeParsedXML
-      // 
-      this.treeParsedXML.Location = new System.Drawing.Point(4, 7);
-      this.treeParsedXML.Name = "treeParsedXML";
-      this.treeParsedXML.Size = new System.Drawing.Size(375, 416);
-      this.treeParsedXML.TabIndex = 1;
       // 
       // Form1
       // 
