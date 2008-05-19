@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.5" generator="OpenStreetMap server">
+  <node id="34051164" lat="52.3723657" lon="4.8971555" user="Ante" visible="true" timestamp="2008-03-08T18:55:54+00:00">
+    <tag k="created_by" v="Potlatch 0.5d"/>
+    <tag k="description" v="Red Light District S, Amsterdam"/>
+    <tag k="name" v="Red Light District S"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+</osm>
